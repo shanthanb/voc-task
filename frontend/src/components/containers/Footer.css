@@ -1,0 +1,123 @@
+.footer {
+  padding-bottom: 20px;
+  background: #0e1218;
+  padding-top: 20px;
+}
+
+.footer-one {
+  display: flex;
+  background: #0e1218;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-logo {
+  color: #fff;
+  margin: 0px 0 0 4%;
+  font-family: "Playfair Display", serif;
+  font-weight: 1000;
+  letter-spacing: 2.5px;
+  font-size: 30px;
+}
+.footer-option {
+  margin: 0 5px;
+  white-space: nowrap;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-options {
+  display: flex;
+  margin: 10px 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between !important;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #cfd1d4;
+}
+.footer-copyright {
+  color: #cfd1d4;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 4%;
+  font-size: 12px;
+}
+
+.footer-two {
+  display: flex;
+}
+.footer-social-iconss {
+  margin-left: auto;
+  margin-right: 4%;
+  cursor: pointer;
+}
+.footer-social-icons {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 0;
+}
+.footer-section {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer-one {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin: 30px 170px 0 170px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .footer-logo {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .footer-options {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-two {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-copyright {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 20px auto;
+  }
+  .footer-section {
+    display: flex;
+    list-style: none;
+    color: #cfd1d4;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .footer-social-icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+}
